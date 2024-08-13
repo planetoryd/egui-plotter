@@ -215,6 +215,8 @@
 mod backend;
 mod chart;
 pub mod charts;
+pub use plotters;
+pub use plotters_backend;
 
 pub use backend::{EguiBackend, EguiBackendError};
 pub use chart::{
